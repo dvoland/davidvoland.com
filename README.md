@@ -44,11 +44,11 @@ There is no build step and no database.
 
 ## QuickMark screenshots
 
-Drop iPhone screenshots into `quickmark/assets/`. Then in `quickmark/index.html`, replace the commented screenshot block with a visible one. The page works fine with no screenshots.
+iPhone marketing screenshots live in `quickmark/assets/` and are shown on `/quickmark/`.
 
 ## App Store badge
 
-v1 shows **Coming Soon** on the QuickMark page. When you have a real App Store URL, replace that element with [Apple’s official badge](https://developer.apple.com/app-store/marketing/guidelines/) and the real link. Do not use a fake store URL.
+QuickMark currently uses a [TestFlight](https://testflight.apple.com/join/UVaRaFZU) join link. When a real App Store URL exists, replace it with [Apple’s official badge](https://developer.apple.com/app-store/marketing/guidelines/). Do not use a fake store URL.
 
 ## First-time GitHub and domain setup
 

@@ -448,3 +448,35 @@ h3 {
   white-space: nowrap;
   border: 0;
 }
+
+.product-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1.1rem 0 0;
+}
+
+.feature-shot {
+  padding: 2rem 0;
+  border-top: 1px solid var(--line);
+}
+
+.feature-shot p {
+  margin: 0 0 1rem;
+}
+
+.feature-shot img {
+  display: block;
+  width: min(100%, 22rem);
+  margin: 0.5rem auto 0;
+  border-radius: 1.25rem;
+  border: 1px solid var(--line);
+  background: var(--bg-elevated);
+}
+
+.card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+}
