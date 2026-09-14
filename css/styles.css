@@ -480,3 +480,13 @@ h3 {
   gap: 0.6rem;
   align-items: center;
 }
+
+.app-icon[src$=".svg"] {
+  background: transparent;
+  box-shadow: none;
+}
+
+.card-actions .coming-soon,
+.product-actions .coming-soon {
+  align-self: center;
+}
