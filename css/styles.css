@@ -8,6 +8,8 @@
   --accent-hover: #163a70;
   --focus: #1f4b8f;
   --coming-soon-bg: #efeae3;
+  --button-fg: #fff;
+  --button-secondary-fg: var(--ink);
   --radius: 1rem;
   --wrap: 40rem;
   --wrap-wide: 48rem;
@@ -26,6 +28,8 @@
     --accent-hover: #b7d0f2;
     --focus: #8bb4e8;
     --coming-soon-bg: #241f1b;
+    /* Primary fills are light in dark mode; use dark label text for contrast. */
+    --button-fg: #161412;
   }
 }
 
@@ -262,7 +266,7 @@ h3 {
   border-radius: 999px;
   border: 1px solid transparent;
   background: var(--accent);
-  color: #fff;
+  color: var(--button-fg);
   font-weight: 600;
   font-size: 0.95rem;
   text-decoration: none;
@@ -270,29 +274,19 @@ h3 {
 
 .button:hover {
   background: var(--accent-hover);
-  color: #fff;
+  color: var(--button-fg);
 }
 
 .button-secondary {
   background: transparent;
-  color: var(--ink);
+  color: var(--button-secondary-fg);
   border-color: var(--line);
 }
 
 .button-secondary:hover {
   background: var(--bg-elevated);
-  color: var(--ink);
+  color: var(--button-secondary-fg);
   border-color: var(--muted);
-}
-
-@media (prefers-color-scheme: dark) {
-  .button {
-    color: #161412;
-  }
-
-  .button:hover {
-    color: #161412;
-  }
 }
 
 .coming-soon {
