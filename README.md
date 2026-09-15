@@ -2,7 +2,7 @@
 
 Personal/project website for [davidvoland.com](https://davidvoland.com).
 
-This repository is **only the website**. QuickMark, Dash Timer, and other apps still live in their Xcode projects and still ship to the App Store through Xcode. GitHub does not replace TestFlight or App Store Connect.
+This repository is **only the website**. QuickMark, Dash Timer, and other apps still live in their Xcode projects and still ship to the App Store through Xcode. GitHub does not replace Xcode or App Store Connect.
 
 ## Local preview
 
@@ -46,9 +46,13 @@ There is no build step and no database.
 
 iPhone marketing screenshots live in `quickmark/assets/` and are shown on `/quickmark/`.
 
-## App Store badge
+## App Store link
 
-QuickMark currently uses a [TestFlight](https://testflight.apple.com/join/UVaRaFZU) join link. When a real App Store URL exists, replace it with [Apple’s official badge](https://developer.apple.com/app-store/marketing/guidelines/). Do not use a fake store URL.
+QuickMark’s primary CTA points at the live App Store listing:
+
+https://apps.apple.com/us/app/quickmark-teacher-tracker/id6805566572
+
+Optional: swap the text button for [Apple’s official badge](https://developer.apple.com/app-store/marketing/guidelines/) later.
 
 ## First-time GitHub and domain setup
 
